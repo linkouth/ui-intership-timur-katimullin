@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: center;
+}
+
+.wrapper {
+}
+
+header {
+  height: 100vh;
+  background: url('../images/WelcomeBG.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__container {
+  height: 100vh;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header__logo {
+  margin-top: 26.5vh;
+}
+
+.header__header {
+  margin-top: 8.8vh;
+  text-transform: uppercase;
+}
+
+.header__color_white {
+  color: white;
+}
+
+.header__mouse-logo {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10.6vh;
+}
+
+.about-us {
+  height: 58vh;
+}
+
+.wrapper__container {
+  margin: 0 auto;
+  margin-top: 15vh;
+  max-width: 900px;
+  border: 2px solid #3c3c3c;
+}
+
+.wrapper__header {
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+  margin: 0 auto;
+  margin-top: -18px;
+  z-index: 1;
+  width: 450px;
+  background-color: white;
+}
+
+.wrapper__text {
+  margin: 7vh auto 5vh auto;
+}
+
+.services {
+  height: 45vh;
+  background: url('../images/servicesBG.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.services__container {
+  max-width: 900px;
+  border: 2px solid #3c3c3c;
+}

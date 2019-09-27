@@ -3,63 +3,41 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
-
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/7.0.0/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/7.0.0/firebase-auth.js"></script>
-    <script defer src="/__/firebase/7.0.0/firebase-database.js"></script>
-    <script defer src="/__/firebase/7.0.0/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/7.0.0/firebase-storage.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <title>Ellipsis</title>
   </head>
   <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
-
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-        try {
-          let app = firebase.app();
-          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
+        <header class="wrapper">
+          <div class="header__container">
+            <img src='images/Label.png' alt='label' class="header__logo" />
+            <h1 class="header__header header__color_white">WORKING <br /> WITH design LAB </h1>
+            <p class="header__color_white">We’ve been helping startups launch and grow their businesses.<br /> We help you to fill the gap between development,<br />
+                design and product management.</p>
+            <img src='images/mouse-icon.svg' alt='scrollable' class="header__mouse-logo" />
+          </div>
+        </header>
+        <div class="wrapper about-us">
+          <div class="wrapper__container">
+            <h2 class="wrapper__header">About us</h2>
+            <p class="wrapper__text"> When you work with us, you are part of a team of committed collaborators.<br />
+              All aspects of our software development process are integrated, iterative and agile.<br /><br />
+               
+              Our approach unifies design, development and <br>
+              product management to create exceptional products. <br> 
+              We start each project by understanding your business goals, <br>
+              the user’s needs and the product requirements. <br>
+              Then we help translate them into effective and elegant solutions.
+              </p>
+          </div>
+        </div>
+        <div class="wrapper services">
+          <div class="services__container">
+            <h2 class="services__header">Services</h2>
+            <p class="services__text">Before we sign a contract or write a line of code our team will spend the necessary<br> time needed to understand your product vision.<br>
+              The outcome of this scoping session is a proposal or high-level statement of work.<br>
+              Based on your requirements, we can provide a complete offering or just the pieces<br> you need. </p>
+          </div>
+        </div>
   </body>
 </html>
