@@ -30,8 +30,18 @@ header {
 }
 
 .header__header {
+  margin: 0 auto;
   margin-top: 8.8vh;
+  font-family: Lato;
+  font-size: 54px;
+  font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 8.62px;
+  line-height: normal;
+}
+
+.header__text {
+  margin-top: 5vh;
 }
 
 .header__color_white {
