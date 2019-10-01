@@ -9,9 +9,9 @@ body {
 }
 
 .wrapper {
-  padding-top: 12vh;
+  padding-top: 8vh;
   padding-right: 10vw;
-  padding-bottom: 12vh;
+  padding-bottom: 8vh;
   padding-left: 10vw;
 }
 
@@ -48,6 +48,7 @@ body {
   padding-top: 12vh;
   border: 2px solid black;
   color: white;
+  white-space: pre-line;
 }
 
 .wrapper:first-child > .container {
@@ -97,7 +98,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 9px;
   margin: 0 auto;
-  margin-top: -14vh;
+  margin-top: -17vh;
   z-index: 1;
   width: 450px;
   background-color: white;
@@ -105,7 +106,7 @@ body {
 
 .container__services__header {
   width: 100%;
-  margin-top: -12vh;
+  margin-top: -15vh;
 }
 
 .container__services__header > span {
@@ -169,7 +170,7 @@ header {
 }
 
 .group {
-  margin-top: 10vh;
+  margin-top: 2vh;
 }
 
 .group__header {
