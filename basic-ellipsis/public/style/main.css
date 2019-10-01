@@ -250,7 +250,19 @@ header {
   margin-right: 10px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+.item:hover {
+  opacity: 0.5;
+}
+
+.item__text {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 8.95px;
+}
+
+@media only screen and (max-width: 900px) {
   .row {
     flex-flow: column nowrap;
   }
@@ -264,18 +276,6 @@ header {
   .item:nth-child(2), .item:nth-child(5) {
     flex: 1 1 auto;
   }
-}
-
-.item:hover {
-  opacity: 0.5;
-}
-
-.item__text {
-  color: white;
-  font-size: 24px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 8.95px;
 }
 
 .item__topworkz {
