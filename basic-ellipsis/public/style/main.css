@@ -9,10 +9,7 @@ body {
 }
 
 .wrapper {
-  padding-top: 8vh;
-  padding-right: 10vw;
-  padding-bottom: 8vh;
-  padding-left: 10vw;
+  padding: 8vh 10vw 8vh 10vw;
 }
 
 .wrapper:first-child {
@@ -21,10 +18,7 @@ body {
 }
 
 .wrapper:nth-last-child(2) {
-  padding-bottom: 0;
-  padding-top: 12vh;
-  padding-right: 10vw;
-  padding-left: 10vw;
+  padding: 12vh 10vw 0 10vw;
 }
 
 .wrapper:last-child {
@@ -36,7 +30,7 @@ body {
 }
 
 .wrapper__theme_services {
-  background: url('../images/ServicesBG.png');
+  background-image: url('../images/ServicesBG.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -136,7 +130,7 @@ body {
 header {
   box-sizing: border-box;
   height: 100vh;
-  background: url('../images/WelcomeBG.png');
+  background-image: url('../images/WelcomeBG.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,7 +156,7 @@ header {
   font-weight: 400;
   line-height: 29px;
   text-transform: uppercase;
-  letter-spacing: 0.9px;
+  letter-spacing: .9px;
 }
 
 .header__mouse-logo {
@@ -189,7 +183,7 @@ header {
 .our-works {
   margin-top: 20.5vh;
   height: 47.7vh;
-  background-color: darkcyan;
+  background-color: #008b8b;
 }
 
 .contact-us__button {
@@ -223,9 +217,7 @@ header {
 }
 
 .wrapper:nth-child(5) {
-  padding-top: 0vh;
-  padding-right: 0vw;
-  padding-left: 0vw;
+  padding: 0;
 }
 
 .row {
@@ -252,7 +244,7 @@ header {
 }
 
 .item:hover {
-  opacity: 0.5;
+  opacity: .5;
 }
 
 .item__text {
@@ -263,7 +255,9 @@ header {
   letter-spacing: 8.95px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only 
+screen and (max-width: 900px),
+screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
   .row {
     flex-flow: column nowrap;
   }
