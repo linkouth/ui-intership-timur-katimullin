@@ -62,7 +62,6 @@ body {
 }
 
 .content_container__services__header:before, .content_container__services__header:after {
-  display: table-cell;
   white-space: nowrap;
   content: "";
   border-top: 2px solid white;
@@ -70,7 +69,6 @@ body {
 }
 
 .content_container__services__header > span {
-  display: table-cell;
   white-space: nowrap;
   position: relative;
 }
@@ -88,6 +86,7 @@ body {
 }
 
 .content_container__services__header {
+  display: flex;
   margin-top: -29px;
   width: 100.3%;
 }
