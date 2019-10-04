@@ -9,68 +9,56 @@ body {
 }
 
 .wrapper {
-  padding: 8vh 10vw 8vh 10vw;
+  max-width: 1920px;
+  padding: 75px 150px;
 }
 
 .wrapper:first-child {
   padding: 0;
-  padding-top: 26vh;
-}
-
-.wrapper:nth-last-child(2) {
-  padding: 12vh 10vw 0 10vw;
+  padding-top: 250px;
 }
 
 .wrapper:last-child {
   padding: 0;
-}
-
-.wrapper:nth-last-child(3) {
-  padding: 0;
+  padding-bottom: 50px;
 }
 
 .wrapper__theme_services {
   background-image: url('../images/ServicesBG.png');
-  background-position: center center;
+  background-position: no-repeat no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.container {
+.content-container {
   max-width: 900px;
   margin: 0 auto;
-  padding-top: 12vh;
   border: 2px solid black;
   color: white;
   white-space: pre-line;
 }
 
-.wrapper:first-child > .container {
+.wrapper:first-child > .content-container {
   padding: 0;
 }
 
-.wrapper:last-child > .container {
-  padding-top: 6vh;
-  padding-bottom: 6vh;
-}
-
-.container__border_none {
+.content-container__without_border {
   border: none;
 }
 
-.container__border_white {
+.content-container__border_white {
   border-color: white;
 }
 
-.container__color_black {
+.content-container__color_black {
   color: black;
 }
 
-.container__services {
+.content-container__services {
   border-top: none;
 }
 
-.container__services__header:before, .container__services__header:after {
+.content-container__services__header:before, .content-container__services__header:after {
   display: table-cell;
   white-space: nowrap;
   content: "";
@@ -78,48 +66,47 @@ body {
   width: 50%;
 }
 
-.container__services__header > span {
+.content-container__services__header > span {
   display: table-cell;
   white-space: nowrap;
-  padding: 0 10px;
   position: relative;
-  top: -15px;
 }
 
-.container__header {
+.content-container__header {
   font-size: 34px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 9px;
   margin: 0 auto;
-  margin-top: -17vh;
+  margin-top: -50px;
   z-index: 1;
   width: 450px;
   background-color: white;
 }
 
-.container__services__header {
-  width: 100%;
-  margin-top: -15vh;
+.content-container__services__header {
+  margin-top: -29px;
+  width: 100.3%;
 }
 
-.container__services__header > span {
+.content-container__services__header > span {
+  top: -18px;
   padding-left: 120px;
   padding-right: 111px;
 }
 
-.container__header__background_none {
+.content-container__header__background_none {
   background: none;
 }
 
-.container__text {
-  margin: 7vh;
+.content-container__text {
+  margin: 50px 150px 50px 150px;
   font-size: 16px;
   font-weight: 300;
   line-height: 25.89px;
 }
 
-.wrapper:first-child > .container {
+.wrapper:first-child > .content-container {
   height: 74vh;
   display: flex;
   flex-direction: column;
@@ -137,7 +124,7 @@ header {
 }
 
 .header__logo {
-  margin-bottom: 8vh;
+  margin-bottom: 60px;
 }
 
 .header__header {
@@ -151,7 +138,7 @@ header {
 }
 
 .header__text {
-  margin-bottom: 20vh;
+  margin-bottom: 150px;
   font-size: 15px;
   font-weight: 400;
   line-height: 29px;
@@ -160,14 +147,15 @@ header {
 }
 
 .header__mouse-logo {
-  margin-bottom: 10vh;
+  margin-bottom: 115px;
 }
 
 .group {
-  margin-top: 2vh;
+  margin-top: 90px;
 }
 
 .group__header {
+  margin-bottom: 0;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
@@ -175,6 +163,7 @@ header {
 }
 
 .group__text {
+  margin: 0;
   font-size: 14px;
   font-weight: 300;
   line-height: 25.89px;
@@ -203,7 +192,7 @@ header {
   opacity: 0.5;
 }
 
-.footer__container {
+.footer__content-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -232,7 +221,7 @@ header {
   display: flex;
   align-items: flex-end;
   flex: 1 1 20vw;
-  background-position: center center;
+  background-position: no-repeat no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -258,6 +247,19 @@ header {
 @media only 
 screen and (max-width: 900px),
 screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+  .content-container__header {
+    width: 400px;
+  }
+
+  .content-container__services__header {
+    width: 100%;
+  }
+
+  .content-container__services__header > span {
+    padding-left: 85px;
+    padding-right: 74px;
+}
+
   .row {
     flex-flow: column nowrap;
   }
