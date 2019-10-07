@@ -212,7 +212,7 @@ header {
   flex-wrap: wrap;
 }
 
-.item {
+.catalog-item {
   height: 237px;
   margin-top: 10px;
   padding-left: 47px;
@@ -224,17 +224,17 @@ header {
   text-decoration: none;
 }
 
-.item:nth-child(2), .item:nth-child(5) {
+.catalog-item:nth-child(2), .catalog-item:nth-child(5) {
   flex-basis: 37%;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.item:hover {
+.catalog-item:hover {
   opacity: .5;
 }
 
-.item__text {
+.catalog-item__title {
   color: white;
   font-size: 24px;
   font-weight: 700;
@@ -285,40 +285,40 @@ screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portr
     flex-flow: column nowrap;
   }
 
-  .item {
+  .catalog-item {
     flex: 1 1 auto;
     margin-left: 20px;
     margin-right: 20px;
     background-repeat: no-repeat;
   }
 
-  .item:nth-child(2), .item:nth-child(5) {
+  .catalog-item:nth-child(2), .catalog-item:nth-child(5) {
     flex: 1 1 auto;
     margin-left: 20px;
     margin-right: 20px;
   }
 }
 
-.item__topworkz {
+.catalog-item__topworkz {
   background-image: url('../images/TopworkzBG.png');
 }
 
-.item__joint {
+.catalog-item__joint {
   background-image: url('../images/JointBG.png');
 }
 
-.item__market {
+.catalog-item__market {
   background-image: url('../images/MarketBG.png');
 }
 
-.item__worktop {
+.catalog-item__worktop {
   background-image: url('../images/WorktopBG.png');
 }
 
-.item__lable {
+.catalog-item__lable {
   background-image: url('../images/LableBG.png');
 }
 
-.item__kyiv {
+.catalog-item__kyiv {
   background-image: url('../images/KyivBG.png');
 }
