@@ -28,7 +28,7 @@ body {
 }
 
 .wrapper_theme_services {
-  background-image: url('../images/ServicesBG.png');
+  background-image: url('../images/services-bg.png');
   background-position: no-repeat no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
@@ -113,7 +113,7 @@ body {
 
 .site-header {
   height: 100vh;
-  background-image: url('../images/WelcomeBG.png');
+  background-image: url('../images/welcome-bg.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -294,25 +294,25 @@ screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portr
 }
 
 .catalog-item__topworkz {
-  background-image: url('../images/TopworkzBG.png');
+  background-image: url('../images/topworkz-bg.png');
 }
 
 .catalog-item__joint {
-  background-image: url('../images/JointBG.png');
+  background-image: url('../images/joint-bg.png');
 }
 
 .catalog-item__market {
-  background-image: url('../images/MarketBG.png');
+  background-image: url('../images/market-bg.png');
 }
 
 .catalog-item__worktop {
-  background-image: url('../images/WorktopBG.png');
+  background-image: url('../images/worktop-bg.png');
 }
 
 .catalog-item__lable {
-  background-image: url('../images/LableBG.png');
+  background-image: url('../images/lable-bg.png');
 }
 
 .catalog-item__kyiv {
-  background-image: url('../images/KyivBG.png');
+  background-image: url('../images/kyiv-bg.png');
 }
