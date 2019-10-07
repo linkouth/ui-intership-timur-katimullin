@@ -183,6 +183,7 @@ header {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2.54px;
+  cursor: pointer;
 }
 
 .contact-us__button:hover {
@@ -219,8 +220,8 @@ header {
   align-items: flex-end;
   flex: 1 1 25%;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+  text-decoration: none;
 }
 
 .item:nth-child(2), .item:nth-child(5) {
@@ -259,6 +260,10 @@ header {
 @media only 
 screen and (max-width: 1250px),
 screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+  .wrapper {
+    padding: 50px 20px;
+  }
+
   .wrapper:first-child > .content_container {
     padding-top: 35px;
   }
@@ -282,36 +287,38 @@ screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portr
 
   .item {
     flex: 1 1 auto;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     background-repeat: no-repeat;
   }
 
   .item:nth-child(2), .item:nth-child(5) {
     flex: 1 1 auto;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
 .item__topworkz {
-  background: url('../images/TopworkzBG.png');
+  background-image: url('../images/TopworkzBG.png');
 }
 
 .item__joint {
-  background: url('../images/JointBG.png');
+  background-image: url('../images/JointBG.png');
 }
 
 .item__market {
-  background: url('../images/MarketBG.png');
+  background-image: url('../images/MarketBG.png');
 }
 
 .item__worktop {
-  background: url('../images/WorktopBG.png');
+  background-image: url('../images/WorktopBG.png');
 }
 
 .item__lable {
-  background: url('../images/LableBG.png');
+  background-image: url('../images/LableBG.png');
 }
 
 .item__kyiv {
-  background: url('../images/KyivBG.png');
+  background-image: url('../images/KyivBG.png');
 }
