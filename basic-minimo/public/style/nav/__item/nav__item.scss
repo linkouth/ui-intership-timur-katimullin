@@ -10,3 +10,9 @@
 .nav__item:not(:last-child) {
   margin-right: 8em;
 }
+
+@media screen and (max-width: 800px) {
+  .nav__item:not(:last-child) {
+    margin-right: 3em;
+  }
+}
