@@ -1,0 +1,28 @@
+$primary-font: "Playfair Display";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: $primary-font;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: none;
+}
+
+@import "site-header/site-header.scss";
+@import "site-title/site-title.scss";
+@import "nav/__items/nav__items.scss";
+@import "nav/__item/nav__item.scss";
+@import "site-footer/site-footer.scss";
+@import "site-footer/__follow/site-footer__follow.scss";
+@import "site-footer/__links/site-footer__links.scss";
+@import "site-footer/__link/site-footer__link.scss";
+@import "site-footer/__socials-links/site-footer__socials-links.scss";
+@import "site-footer/__socials-link/site-footer__socials-link.scss";
+@import "site-content/site-content.scss";

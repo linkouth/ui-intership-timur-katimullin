@@ -8,55 +8,103 @@ body {
   font-family: "Playfair Display";
 }
 
-.site__header {
-  align-items: flex-end;
+a {
+  text-decoration: none;
+  text-decoration-color: none;
+}
+
+.site-header {
+  height: 61px;
+  display: flex;
+  align-items: baseline;
   justify-content: space-between;
 }
 
 @media (min-width: 600px) {
-  .site__header {
+  .site-header {
     overflow: hidden;
   }
 }
-@media (min-width: 900px) {
-  .float .site__header {
-    padding: 1em;
-  }
-}
-@media (min-width: 1200px) {
-  .site__header {
-    margin-bottom: 2em;
-    display: flex;
-  }
-}
-.site__title {
+.site-title {
   padding-bottom: 0.25em;
   margin: 0;
 }
 
 @media (min-width: 900px) {
-  .site__title {
+  .site-title {
     display: inline-block;
   }
 }
 .nav__items {
+  display: flex;
   margin: 0;
   padding: 1.5em 0 1em;
   list-style: none;
   justify-content: right;
+  align-items: baseline;
 }
 
-@media (min-width: 900px) {
-  .nav__items {
-    display: flex;
-  }
-}
 .nav__item {
-  font-weight: bold;
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
 }
 
 .nav__item:not(:last-child) {
   margin-right: 8em;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 97px;
+}
+
+.site-footer__follow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: baseline;
+  color: #000000;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.site-footer__links {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.site-footer__link {
+  margin-right: 17px;
+}
+
+.site-footer__socials-links {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+}
+
+.site-footer_socials-link {
+  margin-right: 18px;
+  color: #000000;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.site-content {
+  min-height: calc(100vh - 97px - 61px);
 }
 
 /*# sourceMappingURL=main.css.map */
