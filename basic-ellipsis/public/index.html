@@ -1,65 +1,133 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+<html lang="en">
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/7.0.0/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/7.0.0/firebase-auth.js"></script>
-    <script defer src="/__/firebase/7.0.0/firebase-database.js"></script>
-    <script defer src="/__/firebase/7.0.0/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/7.0.0/firebase-storage.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ellipsis</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style/main.css">
+</head>
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+<body>
+  <header class="wrapper wrapper_theme-header">
+    <div class="content-container content-container_theme-header content-container_without_border content-container_secondary-color">
+      <img src='images/label.png' alt='label' class="content-container__logo" />
+      <h1 class="content-container__header content-container__header_without-background content-container__header_theme-header">
+        WORKING<br> WITH design LAB
+      </h1>
+      <p class="content-container__text content-container__text_theme-header">
+        We’ve been helping startups launch and grow their businesses.
+        We help you to fill the gap between development,
+        design and product management.
+      </p>
+      <img src='images/mouse-icon.svg' alt='mouse image' class="content-container__mouse-logo" />
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+  </header>
+  <div class="wrapper">
+    <div class="content-container">
+      <h2 class="content-container__header">About us</h2>
+      <p class="content-container__text">
+        When you work with us, you are part of a team of committed collaborators.
+        All aspects of our software development process are integrated, iterative and agile.
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        Our approach unifies design, development and
+        product management to create exceptional products.
+        We start each project by understanding your business goals,
+        the user’s needs and the product requirements.
+        Then we help translate them into effective and elegant solutions.
+      </p>
+    </div>
+  </div>
+  <div class="wrapper wrapper_theme-services">
+    <div class="content-container content-container_theme-services content-container_secondary-color">
+      <h2
+        class="content-container__header content-container__header_without-background content-container__header_theme-services">
+        <span class="content-container__top-border">Services</span>
+      </h2>
+      <p class="content-container__text">
+        Before we sign a contract or write a line of code our team will spend the necessary
+        time needed to understand your product vision.
+        The outcome of this scoping session is a proposal or high-level statement of work.
+        Based on your requirements, we can provide a complete offering or just the pieces
+        you need.
+      </p>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="content-container">
+      <h2 class="content-container__header">What we do</h2>
+      <div class="group">
+        <img src="images/design-logo.svg" class="group__label" alt="design image" />
+        <h3 class="group__header">Design</h3>
+        <p class="group__text">
+          Our design practice offers a full range of services including branding strategy,
+          interaction and visual design and user experience testing.
+          Throughout your project, our designers create and implement visual designs and workflows,
+          solicit user feedback, and work with you to make sure what gets built is what is needed.
+        </p>
+      </div>
+      <div class="group">
+        <img src="images/development-logo.svg" class="group__label" alt="development image" />
+        <h3 class="group__header">Delevopment</h3>
+        <p class="group__text">
+          All engineers are fluent in the latest enterprise, mobile and web development technologies.
+          They collaborate with your team to write, test, and improve code on a daily basis, using proven
+          practices such as test-driven development and pair programing.
+        </p>
+      </div>
+      <div class="group">
+        <img src="images/product-managment-logo.svg" class="group__label" alt="product managment image" />
+        <h3 class="group__header">Product managment</h3>
+        <p class="group__text">
+          Planning and development is iterative. Because we are constantly coding and testing, the
+          products we build are always ready to go live. This iterative process allows for changes as
+          business requirements evolve.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="row">
+      <a href="#" class="catalog-item catalog-item__topworkz">
+        <p class="catalog-item__title">topworkz</p>
+      </a>
+      <a href="#" class="catalog-item catalog-item__joint">
+        <p class="catalog-item__title">joint</p>
+      </a>
+      <a href="#" class="catalog-item catalog-item__market">
+        <p class="catalog-item__title">market</p>
+      </a>
+    </div>
+    <div class="row">
+      <a href="#" class="catalog-item catalog-item__worktop">
+        <p class="catalog-item__title">worktop</p>
+      </a>
+      <a href="#" class="catalog-item catalog-item__lable">
+        <p class="catalog-item__title">lable</p>
+      </a>
+      <a href="#" class="catalog-item catalog-item__kyiv">
+        <p class="catalog-item__title">kyiv</p>
+      </a>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="content-container">
+      <h2 class="content-container__header">Contact us</h2>
+      <p class="content-container__text">
+        Planning and development is iterative. Because we are constantly coding and
+        testing, the products we build are always ready to go live. This iterative process
+        allows for changes as business requirements evolve.
+      </p>
+      <button class="contact-us__button">Contact us</button>
+    </div>
+  </div>
+  <footer class="wrapper">
+    <div class="footer">
+      <img src="images/footer-logo.png" alt="footer logo" class="footer__logo" />
+      <p class="footer__text">© 2014. All Rights Reserved Ellipsis.com</p>
+    </div>
+  </footer>
+</body>
 
-        try {
-          let app = firebase.app();
-          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
 </html>
