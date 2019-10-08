@@ -2,6 +2,7 @@ $primary-font: "Playfair Display";
 
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
@@ -26,3 +27,12 @@ a {
 @import "site-footer/__socials-links/site-footer__socials-links.scss";
 @import "site-footer/__socials-link/site-footer__socials-link.scss";
 @import "site-content/site-content.scss";
+@import "wrapper/wrapper.scss";
+@import "first-post/__leave-a-comment/first-post__leave-a-comment.scss";
+@import "post/post.scss";
+@import "post/__image/post__image.scss";
+@import "post/__image/_first-post/post__image_first-post.scss";
+@import "post/__tag/post__tag.scss";
+@import "post/__tag/_first-post/post__tag_first-post.scss";
+@import "post/__header/post__header.scss";
+@import "post/__text/post__text.scss";
