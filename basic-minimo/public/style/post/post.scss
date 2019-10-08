@@ -1,5 +1,8 @@
 .post {
+  padding-top: 135px;
   display: flex;
   flex-direction: column;
+  flex-basis: 420px;
+  flex-shrink: 1;
   align-items: flex-start;
 }
