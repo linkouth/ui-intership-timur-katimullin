@@ -6,8 +6,7 @@ $primary-font: "Playfair Display";
 }
 
 body {
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
   font-family: $primary-font;
 }
 
@@ -28,6 +27,7 @@ a {
 @import "site-footer/__socials-link/site-footer__socials-link.scss";
 @import "site-content/site-content.scss";
 @import "wrapper/wrapper.scss";
+@import "first-post/__container/first-post__container.scss";
 @import "first-post/__leave-a-comment/first-post__leave-a-comment.scss";
 @import "post/post.scss";
 @import "post/__image/post__image.scss";
