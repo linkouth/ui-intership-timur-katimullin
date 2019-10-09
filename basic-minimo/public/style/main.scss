@@ -15,12 +15,15 @@ a {
   text-decoration-color: none;
 }
 
+@import "wrapper/wrapper.scss";
+@import "content-container/content-container.scss";
 @import "site-header/site-header.scss";
 @import "site-title/site-title.scss";
 @import "nav/__items/nav__items.scss";
 @import "nav/__item/nav__item.scss";
 @import "nav/__link/nav__link.scss";
 @import "site-footer/site-footer.scss";
+@import "site-footer/___container/site-footer__container.scss";
 @import "site-footer/__follow/site-footer__follow.scss";
 @import "site-footer/__links/site-footer__links.scss";
 @import "site-footer/__link-item/site-footer__link-item.scss";
@@ -28,7 +31,6 @@ a {
 @import "site-footer/__socials-link-item/site-footer__socials-link-item.scss";
 @import "site-footer/__socials-link/site-footer__socials-link.scss";
 @import "site-content/site-content.scss";
-@import "wrapper/wrapper.scss";
 @import "post/post.scss";
 @import "post/__image/post__image.scss";
 @import "post/__image/_first-post/post__image_first-post.scss";
