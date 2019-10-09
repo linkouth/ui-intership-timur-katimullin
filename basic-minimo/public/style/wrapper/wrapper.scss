@@ -1,7 +1,6 @@
 .wrapper {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 70px;
@@ -10,5 +9,6 @@
 @media screen and (max-width: 1000px) {
   .wrapper {
     justify-content: center;
+    flex-wrap: wrap;
   }
 }
