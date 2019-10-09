@@ -35,13 +35,12 @@ a {
 @import "post/__image/post__image.scss";
 @import "post/__image/_first-post/post__image_first-post.scss";
 @import "post/__tag/post__tag.scss";
-@import "post/__tag/_first-post/post__tag_first-post.scss";
+@import "post/__tag/_large/post__tag_large.scss";
 @import "post/__header/post__header.scss";
+@import "post/__header/_large/post__header_large.scss";
 @import "post/__text/post__text.scss";
-@import "post/__text/_first-post/post__text_first-post.scss";
-@import "first-post/first-post.scss";
-@import "first-post/__container/first-post__container.scss";
-@import "first-post/__leave-a-comment/first-post__leave-a-comment.scss";
+@import "post/__text/_large/post__text_large.scss";
+@import "post/__link/post__link.scss";
 @import "sign-up/sign-up.scss";
 @import "sign-up/__header/sign-up__header.scss";
 @import "input-container/input-container.scss";
@@ -49,3 +48,4 @@ a {
 @import "input-container/__input-form/input-container__input-form.scss";
 @import "load-more/load-more.scss";
 @import "load-more/__button/load-more__button.scss";
+@import "post/_large/post_large.scss";

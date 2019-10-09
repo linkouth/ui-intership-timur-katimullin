@@ -4,4 +4,8 @@
   font-family: "Playfair Display";
   font-size: 30px;
   font-weight: 400;
+
+  &:hover {
+    opacity: 0.3;
+  }
 }
