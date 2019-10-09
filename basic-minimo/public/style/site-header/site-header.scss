@@ -1,0 +1,16 @@
+.site-header {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 61px;
+  padding-left: 69px;
+  padding-right: 68px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+@media (min-width: 600px) {
+  .site-header {
+    overflow: hidden;
+  }
+}

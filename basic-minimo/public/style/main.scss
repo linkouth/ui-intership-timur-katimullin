@@ -1,0 +1,54 @@
+$primary-font: "Playfair Display";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  font-family: $primary-font;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: none;
+}
+
+@import "wrapper/wrapper.scss";
+@import "content-container/content-container.scss";
+@import "site-header/site-header.scss";
+@import "site-title/site-title.scss";
+@import "nav/__items/nav__items.scss";
+@import "nav/__item/nav__item.scss";
+@import "nav/__link/nav__link.scss";
+@import "site-footer/site-footer.scss";
+@import "site-footer/___container/site-footer__container.scss";
+@import "site-footer/__follow/site-footer__follow.scss";
+@import "site-footer/__links/site-footer__links.scss";
+@import "site-footer/__link-item/site-footer__link-item.scss";
+@import "site-footer/__socials-links/site-footer__socials-links.scss";
+@import "site-footer/__socials-link-item/site-footer__socials-link-item.scss";
+@import "site-footer/__socials-link/site-footer__socials-link.scss";
+@import "site-footer/__socials-icon/site-footer__socials-icon.scss";
+@import "site-footer/__socials-header/site-footer__socials-header.scss";
+@import "site-content/site-content.scss";
+@import "post/post.scss";
+@import "post/__image/post__image.scss";
+@import "post/__image/_first-post/post__image_first-post.scss";
+@import "post/__tag/post__tag.scss";
+@import "post/__tag/_large/post__tag_large.scss";
+@import "post/__header/post__header.scss";
+@import "post/__header/_large/post__header_large.scss";
+@import "post/__text/post__text.scss";
+@import "post/__text/_large/post__text_large.scss";
+@import "post/__link/post__link.scss";
+@import "sign-up/sign-up.scss";
+@import "sign-up/__header/sign-up__header.scss";
+@import "input-container/input-container.scss";
+@import "input-container/__send-button/input-container__send-button.scss";
+@import "input-container/__input-form/input-container__input-form.scss";
+@import "input-container/__send-icon/input-container__send-icon.scss";
+@import "load-more/load-more.scss";
+@import "button/_large/button_large.scss";
+@import "post/_large/post_large.scss";
