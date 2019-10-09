@@ -30,6 +30,8 @@ a {
 @import "site-footer/__socials-links/site-footer__socials-links.scss";
 @import "site-footer/__socials-link-item/site-footer__socials-link-item.scss";
 @import "site-footer/__socials-link/site-footer__socials-link.scss";
+@import "site-footer/__socials-icon/site-footer__socials-icon.scss";
+@import "site-footer/__socials-header/site-footer__socials-header.scss";
 @import "site-content/site-content.scss";
 @import "post/post.scss";
 @import "post/__image/post__image.scss";
@@ -47,5 +49,5 @@ a {
 @import "input-container/__send-button/input-container__send-button.scss";
 @import "input-container/__input-form/input-container__input-form.scss";
 @import "load-more/load-more.scss";
-@import "load-more/__button/load-more__button.scss";
+@import "button/_large/button_large.scss";
 @import "post/_large/post_large.scss";
