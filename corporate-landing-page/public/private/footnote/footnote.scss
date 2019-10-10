@@ -1,0 +1,12 @@
+@import "../global/variables";
+
+.footnote {
+  margin: 0;
+  margin-top: 20px;
+  opacity: 0.6;
+  color: $text-primary-color;
+  font-family: $primary-font;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.56px;
+}
