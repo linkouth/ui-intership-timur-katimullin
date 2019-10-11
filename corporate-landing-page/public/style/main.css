@@ -17,6 +17,7 @@ body {
   max-width: 1440px;
   height: 100%;
   margin: 0 auto;
+  padding: 140px 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,6 +26,12 @@ body {
 
 .content-container_video {
   max-width: 750px;
+  padding: 0;
+}
+
+.content-container_theme_features {
+  background: url("../images/pen-holder.png") 7% 0%, url("../images/earphones.png") 88% -2%, url("../images/coffee-cup.png") 93% 100%, #f6f5f3;
+  background-repeat: no-repeat;
 }
 
 .site-label {
@@ -39,15 +46,13 @@ body {
 }
 
 .button {
-  width: 190px;
-  height: 50px;
+  padding: 15px 50px;
   border-radius: 3px;
   background-color: #ff6d6d;
   color: #ffffff;
   font-family: "Exo";
   font-size: 16px;
   font-weight: 400;
-  line-height: 75px;
   text-transform: uppercase;
   letter-spacing: 3.2px;
 }
@@ -76,6 +81,85 @@ body {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.56px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.post:not(:first-child) {
+  margin-left: 40px;
+}
+
+.post_center {
+  max-width: 1200px;
+  align-items: center;
+}
+
+.post__subtitle {
+  margin: 0;
+  color: #ff6d6d;
+  font-family: "Exo";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 3.2px;
+}
+
+.post__title {
+  margin: 0;
+  margin-top: 16px;
+  color: #282828;
+  font-family: "Exo";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 1.6px;
+}
+
+.post__title_small {
+  margin: 0;
+  margin-top: 30px;
+  color: #282828;
+  font-family: "Exo";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 49.97px;
+  letter-spacing: 0.88px;
+}
+
+.post__text {
+  margin: 0;
+  margin-top: 45px;
+  opacity: 0.66;
+  color: #282828;
+  font-family: "Exo";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.64px;
+}
+
+.post__text_small {
+  margin: 0;
+  margin-top: 19px;
+}
+
+.post__dots {
+  font-family: "Exo";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+  color: #ff6d6d;
+  letter-spacing: 1.6px;
+}
+
+.row {
+  display: flex;
+  margin-top: 90px;
 }
 
 /*# sourceMappingURL=main.css.map */

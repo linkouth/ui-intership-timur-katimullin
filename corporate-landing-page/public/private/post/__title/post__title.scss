@@ -1,0 +1,12 @@
+@import "../../global/variables";
+
+.post__title {
+  margin: 0;
+  margin-top: 16px;
+  color: $text-primary-color;
+  font-family: $primary-font;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 1.6px;
+}

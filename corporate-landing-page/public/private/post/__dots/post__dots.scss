@@ -1,0 +1,10 @@
+@import "../../global/variables";
+
+.post__dots {
+  font-family: $primary-font;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+  color: $post-dots-color;
+  letter-spacing: 1.6px;
+}
