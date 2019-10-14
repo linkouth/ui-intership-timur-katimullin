@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .wrapper {
   width: 100%;
 }
@@ -10,6 +14,11 @@ body {
   height: 100vh;
   background-image: url("../images/welcome-video-bg.png");
   background-position: center;
+  background-size: cover;
+}
+
+.wrapper_theme_quotes {
+  background-image: url("../images/quotes-bg.png");
   background-size: cover;
 }
 
@@ -34,6 +43,26 @@ body {
   background-repeat: no-repeat;
 }
 
+.content-container_theme_quotes {
+  padding: 20px 150px 80px 110px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-container_with-browser {
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+.content-container_theme_registration {
+  margin-bottom: 0;
+  background-image: url("../images/registration-bg.png");
+  background-size: cover;
+}
+
+.content-container_row {
+  flex-direction: row;
+}
+
 .site-label {
   margin: 0;
   color: #282828;
@@ -55,6 +84,16 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 3.2px;
+}
+
+.button_small {
+  padding: 13px 15px;
+}
+
+.button_covered {
+  position: relative;
+  top: 3px;
+  left: -58px;
 }
 
 .play-container {
@@ -104,7 +143,6 @@ body {
   font-family: "Exo";
   font-size: 16px;
   font-weight: 500;
-  line-height: 50px;
   text-transform: uppercase;
   letter-spacing: 3.2px;
 }
@@ -131,6 +169,10 @@ body {
   letter-spacing: 0.88px;
 }
 
+.post__text_center {
+  text-align: center;
+}
+
 .post__text {
   margin: 0;
   margin-top: 45px;
@@ -143,9 +185,18 @@ body {
   letter-spacing: 0.64px;
 }
 
+.post__text_secondary-color {
+  color: #ffffff;
+}
+
 .post__text_small {
+  max-width: 700px;
   margin: 0;
   margin-top: 19px;
+}
+
+.post__title_secondary-color {
+  color: #ffffff;
 }
 
 .post__dots {
@@ -159,7 +210,129 @@ body {
 
 .row {
   display: flex;
+  align-items: center;
   margin-top: 90px;
+}
+
+.browser {
+  width: 820px;
+  height: 375px;
+  margin-top: 90px;
+  background: url("../images/browser.png") 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.browser__background {
+  width: 768px;
+  height: 322px;
+  margin: 52px 26px 0 26px;
+  background-image: url("../images/browser-bg.png");
+  background-repeat: no-repeat;
+}
+
+.registration-form {
+  margin-top: 100px;
+  display: flex;
+  align-items: baseline;
+}
+
+.registration-form__input {
+  margin-right: 30px;
+  padding: 14px 70px 14px 30px;
+  color: #f6f5f3;
+  font-family: "Exo";
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.64px;
+}
+
+.input {
+  width: 263px;
+  height: 49px;
+  border-radius: 3px;
+  border: 1px solid #ffffff;
+  background-color: #f6f5f3;
+  background-image: url("../images/input-bg.svg");
+  background-size: cover;
+  opacity: 0.5;
+  font-family: "Exo";
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.64px;
+}
+
+.input_secondary-color {
+  border-color: #4e4e5e;
+}
+
+.input_email {
+  padding-left: 29px;
+}
+
+.footer-container {
+  padding: 85px 340px 85px 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.links-section {
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.links-section__list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.links-section__link {
+  opacity: 0.66;
+  color: #282828;
+  font-family: "Exo";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.56px;
+}
+
+.links-section__logo-bg {
+  position: relative;
+  z-index: 1;
+  padding-left: 5px;
+  color: #ffffff;
+}
+
+.links-section__title {
+  color: #2c2f49;
+  font-family: "Lato";
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 33.6px;
+}
+
+.links-section__title_with-logo {
+  position: relative;
+}
+.links-section__title_with-logo::after {
+  position: absolute;
+  top: -15%;
+  left: 27%;
+  width: 42px;
+  height: 47px;
+  content: url("../images/logo-bg.svg");
+}
+
+.links-section__text {
+  width: 230px;
+  opacity: 0.56;
+  color: #282828;
+  font-family: "Exo";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.56px;
 }
 
 /*# sourceMappingURL=main.css.map */
