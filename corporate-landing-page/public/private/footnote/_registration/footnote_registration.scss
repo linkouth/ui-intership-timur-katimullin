@@ -1,12 +1,10 @@
 @import "../../global/variables";
 
-.registration-form__input {
-  margin-right: 30px;
-  padding: 14px 70px 14px 30px;
+.footnote_registration {
+  opacity: 0.6;
   color: $text-trinary-color;
   font-family: $primary-font;
   font-size: 16px;
   font-weight: 400;
-  text-transform: uppercase;
   letter-spacing: 0.64px;
 }

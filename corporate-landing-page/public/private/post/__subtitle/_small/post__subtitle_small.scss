@@ -1,0 +1,10 @@
+@import "../../../global/variables";
+
+.post__subtitle_small {
+  color: $subtitle-primary-color;
+  font-family: $primary-font;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  text-transform: none;
+}
