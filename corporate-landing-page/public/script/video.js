@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(event) {
-  const playLogoPath = '../public/images/play-icon.svg';
-  const pauseLogoPath = '../public/images/pause-icon.svg';
+  const playLogoPath = '../images/play-icon.svg';
+  const pauseLogoPath = '../images/pause-icon.svg';
   let playButton = document.querySelector('.play-container');
   let buttonLogo = document.querySelector('.play-container__logo');
   const leftMargin = buttonLogo.style.marginLeft;
