@@ -161,6 +161,7 @@ a {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 3.2px;
+  cursor: pointer;
 }
 
 .button_small {
