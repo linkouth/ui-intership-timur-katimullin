@@ -1,0 +1,12 @@
+.links-section__title_with-logo {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    top: -15%;
+    left: 27%;
+    width: 42px;
+    height: 47px;
+    content: url("../images/logo-bg.svg");
+  }
+}

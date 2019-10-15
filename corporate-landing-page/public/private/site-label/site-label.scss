@@ -1,0 +1,12 @@
+@import "../global/_variables.scss";
+
+.site-label {
+  margin: 0;
+  color: $text-primary-color;
+  font-family: $site-label-font;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 75px;
+  letter-spacing: 2.4px;
+  text-align: center;
+}

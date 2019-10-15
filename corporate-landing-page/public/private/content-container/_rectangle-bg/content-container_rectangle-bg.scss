@@ -1,0 +1,11 @@
+.content-container_rectangle-bg {
+  padding: 10px 150px;
+  margin: 190px 150px 160px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .content-container_rectangle-bg {
+    padding: 10px 100px;
+    margin: 190px 0 160px auto;
+  }
+}

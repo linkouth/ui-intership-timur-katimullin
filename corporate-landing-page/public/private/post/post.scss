@@ -1,0 +1,17 @@
+.post {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  &:not(:first-child) {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .post:not(:first-child) {
+    margin-left: 40px;
+  }
+}

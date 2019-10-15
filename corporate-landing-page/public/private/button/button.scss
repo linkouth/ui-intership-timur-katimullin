@@ -1,0 +1,14 @@
+@import "../global/variables";
+
+.button {
+  padding: 15px 50px;
+  border-radius: 3px;
+  background-color: $button-bg-color;
+  color: $text-secondary-color;
+  font-family: $primary-font;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3.2px;
+  cursor: pointer;
+}

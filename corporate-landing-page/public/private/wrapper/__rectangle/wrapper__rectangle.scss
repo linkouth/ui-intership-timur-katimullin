@@ -1,0 +1,30 @@
+.wrapper__rectangle {
+  width: 35%;
+  background: linear-gradient(-45deg, transparent 45%, #f6f5f3 20%),
+              linear-gradient(0, transparent 100%, #f6f5f3 50%),
+              linear-gradient(to bottom, #ff6d6d, #ff6d6d);
+}
+
+@media screen and (max-width: 1440px) {
+  .wrapper__rectangle {
+    background: linear-gradient(-45deg, transparent 33%, #f6f5f3 20%),
+                linear-gradient(0, transparent 100%, #f6f5f3 50%),
+                linear-gradient(to bottom, #ff6d6d, #ff6d6d);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper__rectangle {
+    background: linear-gradient(-45deg, transparent 20%, #f6f5f3 20%),
+                linear-gradient(0, transparent 100%, #f6f5f3 50%),
+                linear-gradient(to bottom, #ff6d6d, #ff6d6d);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper__rectangle {
+    background: linear-gradient(-45deg, transparent 15%, #f6f5f3 15%),
+                linear-gradient(0, transparent 100%, #f6f5f3 50%),
+                linear-gradient(to bottom, #ff6d6d, #ff6d6d);
+  }
+}

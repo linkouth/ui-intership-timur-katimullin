@@ -1,0 +1,19 @@
+@import "../../global/variables";
+
+.registration-form__trial-info {
+  position: relative;
+  margin-bottom: 40px;
+  color: $text-trinary-color;
+  font-family: $primary-font;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.64px;
+  text-align: center;
+
+  &::before {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    content: url("../images/arrow.png");
+  }
+}

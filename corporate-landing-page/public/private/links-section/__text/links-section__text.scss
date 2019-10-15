@@ -1,0 +1,11 @@
+@import "../../global/variables";
+
+.links-section__text {
+  width: 230px;
+  opacity: .56;
+  color: $text-primary-color;
+  font-family: $primary-font;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: .56px;
+}

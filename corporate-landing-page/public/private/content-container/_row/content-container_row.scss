@@ -1,0 +1,12 @@
+.content-container_row {
+  padding: 140px 55px;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .content-container_row {
+    padding: 140px 55px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
