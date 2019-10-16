@@ -11,4 +11,8 @@
   text-transform: uppercase;
   letter-spacing: 3.2px;
   cursor: pointer;
+
+  &:hover {
+    opacity: .5;
+  }
 }

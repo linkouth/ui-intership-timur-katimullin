@@ -9,6 +9,9 @@ body {
 a {
   text-decoration: none;
 }
+a:hover {
+  opacity: 0.5;
+}
 
 .wrapper {
   width: 100%;
@@ -162,6 +165,9 @@ a {
   text-transform: uppercase;
   letter-spacing: 3.2px;
   cursor: pointer;
+}
+.button:hover {
+  opacity: 0.5;
 }
 
 .button_small {
