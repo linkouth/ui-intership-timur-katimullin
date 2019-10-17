@@ -1,0 +1,9 @@
+@import "../../global/variables";
+
+.card__price {
+  margin: 0;
+  color: $text-secondary-color;
+  font-family: $secondary-font;
+  font-size: 94px;
+  font-weight: 700;
+}
