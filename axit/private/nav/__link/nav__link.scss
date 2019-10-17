@@ -1,0 +1,14 @@
+@import "../../global/variables";
+
+.nav__link {
+  opacity: 0.69;
+  color: $primary-color;
+  font-family: $primary-font-bold;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+
+  &:hover {
+    opacity: .5;
+  }
+}

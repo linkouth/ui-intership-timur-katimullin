@@ -1,0 +1,10 @@
+@import "../../../global/variables";
+
+.post__text_with-bg {
+  opacity: 0.8;
+  color: $text-primary-color;
+  font-family: $secondary-font;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 23px;
+}
