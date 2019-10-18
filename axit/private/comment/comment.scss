@@ -1,5 +1,19 @@
+@import "../global/mixins";
+
 .comment {
   max-width: 273px;
   display: flex;
   flex-direction: column;
+
+  @include for-tablet-landscape-up {
+    & {
+      max-width: 200px;
+    }
+  }
+
+  @include for-tablet-portrait-up {
+    & {
+      max-width: 200px;
+    }
+  }
 }

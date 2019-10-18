@@ -1,17 +1,15 @@
 @import "../../global/mixins";
 
-.content-container_theme_street {
-  padding: 70px 300px;
-
+.content-container_theme_comments {
   @include for-tablet-landscape-up {
     & {
-      padding: 50px 50px 90px;
+      padding: 110px 100px 140px;
     }
   }
 
   @include for-tablet-portrait-up {
     & {
-      padding: 50px 50px 90px;
+      padding: 110px 50px 140px;
     }
   }
 }

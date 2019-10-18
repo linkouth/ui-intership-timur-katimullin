@@ -1,6 +1,17 @@
+@import "../../global/mixins";
+
 .content-container_theme_buildings {
   align-items: baseline;
-  background-color: rgba($color: #000000, $alpha: 1);
-  background-image: url("../images/buildings.png");
-  background-size: cover;
+
+  @include for-tablet-landscape-up {
+    & {
+      padding: 110px 30px 140px 50px;
+    }
+  }
+
+  @include for-tablet-portrait-up {
+    & {
+      padding: 110px 40px 140px 50px;
+    }
+  }
 }

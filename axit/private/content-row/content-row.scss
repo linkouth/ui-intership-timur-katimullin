@@ -1,4 +1,18 @@
+@import "../global/mixins";
+
 .content-row {
   display: flex;
   justify-content: space-between;
+
+  @include for-tablet-landscape-up {
+    & {
+      flex-wrap: wrap;
+    }
+  }
+
+  @include for-tablet-portrait-up {
+    & {
+      flex-wrap: wrap;
+    }
+  }
 }

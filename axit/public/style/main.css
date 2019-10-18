@@ -6,6 +6,35 @@ body {
   width: 100%;
 }
 
+.wrapper_header {
+  background-color: #000000;
+}
+
+.wrapper_theme_buildings {
+  background-color: black;
+  background-image: url("../images/buildings.png");
+  background-size: cover;
+}
+
+.wrapper_theme_social-media {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.38);
+  background-color: #ffffff;
+}
+
+.wrapper_theme_pricing {
+  background-color: #f5f5f5;
+}
+
+.wrapper_theme_street {
+  background-color: black;
+  background-image: url("../images/street.png");
+  background-size: cover;
+}
+
+.wrapper_footer {
+  background-color: #000000;
+}
+
 .content-container {
   max-width: 1400px;
   margin: 0 auto;
@@ -29,7 +58,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000000;
 }
 
 .content-container_footer {
@@ -39,21 +67,35 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #000000;
 }
 
 .content-container_theme_buildings {
   align-items: baseline;
-  background-color: black;
-  background-image: url("../images/buildings.png");
-  background-size: cover;
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .content-container_theme_buildings {
+    padding: 110px 30px 140px 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .content-container_theme_buildings {
+    padding: 110px 40px 140px 50px;
+  }
 }
 
 .content-container_theme_social-media {
   padding: 20px 160px 20px 150px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.38);
-  background-color: #ffffff;
   align-items: center;
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .content-container_theme_social-media {
+    padding: 20px 50px 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .content-container_theme_social-media {
+    padding: 20px 50px 20px;
+  }
 }
 
 .content-container_theme_features {
@@ -66,12 +108,44 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .content-container_theme_pricing {
+    padding: 110px 100px 140px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .content-container_theme_pricing {
+    padding: 110px 50px 140px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .content-container_theme_comments {
+    padding: 110px 100px 140px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .content-container_theme_comments {
+    padding: 110px 50px 140px;
+  }
+}
 
 .content-container_theme_street {
   padding: 70px 300px;
-  background-color: black;
-  background-image: url("../images/street.png");
-  background-size: cover;
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .content-container_theme_street {
+    padding: 50px 50px 90px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .content-container_theme_street {
+    padding: 50px 50px 90px;
+  }
+}
+
+.content-container_theme_contact-us {
+  padding: 110px 140px 80px;
 }
 
 .nav__items {
@@ -284,6 +358,16 @@ body {
   display: flex;
   justify-content: space-between;
 }
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .content-row {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .content-row {
+    flex-wrap: wrap;
+  }
+}
 
 .content-row__item:not(:last-child) {
   margin-right: 30px;
@@ -315,8 +399,37 @@ body {
   height: 46px;
 }
 
-.card__title-section {
+.social-media_small {
+  height: 25px;
+  width: 320px;
+}
+
+.social-media__link {
+  width: 40px;
+  height: 40px;
+}
+
+.social-media__link_small {
+  width: 25px;
+  height: 25px;
+}
+
+.card {
   width: 343px;
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .card {
+    width: 250px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .card {
+    width: 200px;
+  }
+}
+
+.card__title-section {
+  width: 100%;
   height: 60px;
   box-sizing: border-box;
   background-color: #333333;
@@ -331,7 +444,7 @@ body {
 }
 
 .card__price-section {
-  width: 343px;
+  width: 100%;
   height: 100px;
   box-sizing: border-box;
   background-color: #333333;
@@ -365,7 +478,6 @@ body {
 }
 
 .card__footnote-section {
-  width: 343px;
   height: 50px;
   background-color: #333333;
   display: flex;
@@ -391,7 +503,7 @@ body {
 }
 
 .card__term-section {
-  width: 343px;
+  width: 100%;
   height: 40px;
   background-color: #ffffff;
   border-bottom: 1px solid #f5f5f5;
@@ -409,6 +521,16 @@ body {
   max-width: 273px;
   display: flex;
   flex-direction: column;
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .comment {
+    max-width: 200px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .comment {
+    max-width: 200px;
+  }
 }
 
 .comment__body {

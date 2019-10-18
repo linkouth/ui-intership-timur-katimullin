@@ -1,0 +1,17 @@
+@import "../global/mixins";
+
+.card {
+  width: 343px;
+
+  @include for-tablet-landscape-up {
+    & {
+      width: 250px;
+    }
+  }
+
+  @include for-tablet-portrait-up {
+    & {
+      width: 200px;
+    }
+  }
+}

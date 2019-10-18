@@ -1,8 +1,19 @@
 @import "../../global/variables";
+@import "../../global/mixins";
 
 .content-container_theme_social-media {
   padding: 20px 160px 20px 150px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.38);
-  background-color: $bg-primary-color;
   align-items: center;
+
+  @include for-tablet-landscape-up {
+    & {
+      padding: 20px 50px 20px;
+    }
+  }
+
+  @include for-tablet-portrait-up {
+    & {
+      padding: 20px 50px 20px;
+    }
+  }
 }
