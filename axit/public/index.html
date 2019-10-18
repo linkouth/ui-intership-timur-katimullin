@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-  <head lang="en">
+<html lang="en">
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AXIT</title>
@@ -56,9 +56,9 @@
             <div class="registration-form__title">
               Try Your <span class="registration-form__title_colored">FREE</span> Trial Today
             </div>
-            <input type="text" placeholder="Name" class="registration-form__input registration-form__input_name" required autocomplete="name" />
-            <input type="email" placeholder="Email" class="registration-form__input registration-form__input_email" required autocomplete="email" />
-            <input type="password" placeholder="Password" class="registration-form__input registration-form__input_password" required autocomplete="new-password" />
+            <input type="text" placeholder="Name" class="input input_name" required autocomplete="name" />
+            <input type="email" placeholder="Email" class="input input_email" required autocomplete="email" />
+            <input type="password" placeholder="Password" class="input input_password" required autocomplete="new-password" />
             <button type="submit" class="button button_large button_colored">Get Started</button>
           </form>
         </div>
@@ -157,7 +157,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           </article>
-          <div class="content-row">
+          <div class="content-row content-row_align-bottom">
             <div class="card">
               <div class="card__title-section">
                 Basic
@@ -344,6 +344,48 @@
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <section class="wrapper">
+        <div class="content-container content-container_column content-container_theme_street">
+          <article class="post post_centered">
+            <h2 class="post__title post__title_trinary-color post__title_trinary-color">
+              Stylish axure design
+            </h2>
+            <img class="post__separator" src="images/separator-white.png" alt="" />
+            <p class="post__text">
+              Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!
+            </p>
+            <button class="button">
+              Download
+            </button>
+          </article>
+        </div>
+      </section>
+      <section class="wrapper">
+        <div class="content-container content-container_column content-container_centered">
+          <article class="post post_centered">
+            <h2 class="post__title">
+              Contact us
+            </h2>
+            <img class="post__separator" src="images/colored-separator.png" alt="" />
+            <p class="post__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </article>
+          <form action="#" method="POST" class="contact-us-form">
+            <div class="content-row content-row_align-bottom">
+              <div class="content-column">
+                <input type="text" placeholder="Name" required autocomplete="name" class="input input_name input_large" />
+                <input type="email" placeholder="Email" required autocomplete="email" class="input input_email input_large" />
+                <input type="text" placeholder="Subject" required class="input input_subject input_large" />
+              </div>
+              <textarea placeholder="Message" required class="input input_textarea input_large"></textarea>
+            </div>
+            <button class="button button_colored" type="submit">
+              Send Message
+            </button>
+          </form>
         </div>
       </section>
     </main>

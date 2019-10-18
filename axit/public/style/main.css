@@ -15,6 +15,10 @@ body {
   box-sizing: border-box;
 }
 
+.content-container_centered {
+  align-items: center;
+}
+
 .content-container_column {
   flex-direction: column;
   justify-content: center;
@@ -61,6 +65,13 @@ body {
   background-color: #f5f5f5;
   flex-direction: column;
   justify-content: center;
+}
+
+.content-container_theme_street {
+  padding: 70px 300px;
+  background-color: black;
+  background-image: url("../images/street.png");
+  background-size: cover;
 }
 
 .nav__items {
@@ -131,7 +142,6 @@ body {
 }
 
 .post__text {
-  max-width: 470px;
   margin: 0;
   margin-bottom: 45px;
   color: #86878b;
@@ -228,29 +238,50 @@ body {
   color: #ff8b38;
 }
 
-.registration-form__input {
+.input {
   height: 31px;
   margin: 0 40px;
   border: none;
   box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
 }
+.input::placeholder {
+  color: #bdbdbd;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
 
-.registration-form__input_name {
+.input_name {
   margin-top: 30px;
 }
 
-.registration-form__input_email {
+.input_email {
   margin-top: 35px;
 }
 
-.registration-form__input_password {
+.input_password {
   margin-top: 45px;
   margin-bottom: 50px;
 }
 
+.input_textarea {
+  height: 150px;
+  max-height: 150px;
+  min-height: 100px;
+  margin-bottom: 40px;
+}
+
+.input_subject {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.input_large {
+  width: 527px;
+}
+
 .content-row {
   display: flex;
-  align-items: flex-end;
   justify-content: space-between;
 }
 
@@ -264,6 +295,10 @@ body {
 
 .content-row_align-center {
   align-items: center;
+}
+
+.content-row_align-bottom {
+  align-items: flex-end;
 }
 
 .content-column {
@@ -406,6 +441,13 @@ body {
   font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
+}
+
+.contact-us-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */
