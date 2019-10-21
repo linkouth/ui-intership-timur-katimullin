@@ -12,10 +12,17 @@
   & > .tab-container__tab:first-child:checked ~ .tab-container__panels > .tab-container__panel:first-child,
   & > .tab-container__tab:nth-child(3):checked ~ .tab-container__panels > .tab-container__panel:nth-child(2),
   & > .tab-container__tab:nth-child(5):checked ~ .tab-container__panels > .tab-container__panel:nth-child(3) {
+    animation: animation 1s;
     display: block;
   }
 
   & > .tab-container__tab:checked + .tab-container__label {
     background: $button-bg-color;
+  }
+
+  @keyframes animation {
+    0% { opacity: 0; }
+    50% { opacity: .5; }
+    100% { opacity: 1; }
   }
 }
