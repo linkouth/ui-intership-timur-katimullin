@@ -1,6 +1,13 @@
 @import "../global/mixins";
 
 .large-image {
+  @media screen and (max-width: 1440px) {
+    & {
+      width: 50%;
+      height: 50%;
+    }
+  }
+
   @include for-tablet-landscape-up {
     & {
       width: 35%;
