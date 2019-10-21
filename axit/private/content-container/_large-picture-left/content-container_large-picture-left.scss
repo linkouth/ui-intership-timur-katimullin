@@ -1,19 +1,17 @@
 @import "../../global/mixins";
 
-.content-row__item {
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
+.content-container_large-picture-left {
+  padding: 110px 160px 115px 110px;
 
   @include for-tablet-landscape-up {
     & {
-      margin: 0 30px;
+      width: 250px;
     }
   }
 
   @include for-tablet-portrait-up {
     & {
-      margin: 0 15px;
+      padding: 110px 40px 115px 40px;
     }
   }
 }

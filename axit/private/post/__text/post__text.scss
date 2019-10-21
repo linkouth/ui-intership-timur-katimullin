@@ -1,6 +1,7 @@
 @import "../../global/variables";
 
 .post__text {
+  max-width: 500px;
   margin: 0;
   margin-bottom: 45px;
   color: $text-primary-color;

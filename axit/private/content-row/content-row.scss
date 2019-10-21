@@ -7,12 +7,14 @@
   @include for-tablet-landscape-up {
     & {
       flex-wrap: wrap;
+      justify-content: center;
     }
   }
 
   @include for-tablet-portrait-up {
     & {
       flex-wrap: wrap;
+      justify-content: center;
     }
   }
 }

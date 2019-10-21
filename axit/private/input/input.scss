@@ -5,6 +5,7 @@
   margin: 0 40px;
   border: none;
   box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
+  outline: none;
 
   &::placeholder {
     color: $placeholder-color;

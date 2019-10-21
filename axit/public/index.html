@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AXIT</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style/main.css">
   </head>
   <body>
@@ -37,7 +37,7 @@
       <section class="wrapper wrapper_theme_buildings">
         <div class="content-container content-container_theme_buildings">
           <article class="post">
-            <img class="" src="images/axit-logo-large.png" alt="Image of axit logo" />
+            <img class="site-title" src="images/axit-logo-large.png" alt="Image of axit logo" />
             <h2 class="post__title post__title_trinary-color">
               Modern axure template
               for beautiful prototypes
@@ -48,17 +48,19 @@
               euismod bibendum laoreet. Proin gravida dolor sit amet lacus
               accumsan et viverra justo commodo. 
             </p>
-            <button class="button">
+            <a href="assets/modulepatterns.pdf" target="_blank" download="author" rel="external" title="Module patterns" class="button">
               Download
-            </button>
+            </a>
           </article>
           <form action="#" method="POST" class="registration-form">
             <div class="registration-form__title">
               Try Your <span class="registration-form__title_colored">FREE</span> Trial Today
             </div>
-            <input type="text" placeholder="Name" class="input input_name" required autocomplete="name" />
+            <input type="text" placeholder="Name" class="input input_name" required autocomplete="name" inputmode="latin"
+            pattern="^([A-Za-z]){1,}$" title="At least 1 character, only latin letters" />
             <input type="email" placeholder="Email" class="input input_email" required autocomplete="email" />
-            <input type="password" placeholder="Password" class="input input_password" required autocomplete="new-password" />
+            <input type="password" placeholder="Password" class="input input_password" required autocomplete="new-password"
+            pattern="(?=.*\d)(?=.*\W+)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="Min 6 characters, 1 capital letter, 1 lower-case letter, 1 digit, 1 special character" />
             <button type="submit" class="button button_large button_colored">Get Started</button>
           </form>
         </div>
@@ -66,7 +68,7 @@
       <section class="wrapper wrapper_theme_social-media">
         <div class="content-container content-container_theme_social-media">
           <article class="post">
-            <h2 class="post__title post__title_small">
+            <h2 class="post__title post__title_small post__title_without-margin">
               Social Media
             </h2>
             <p class="post__text post__text_without-margins">
@@ -75,16 +77,172 @@
             </p>
           </article>
           <div class="social-media">
-            <img class="social-media__link" src="images/facebook-logo.svg" alt="Image of facebook logo" />
-            <img class="social-media__link" src="images/twitter-logo.svg" alt="Image of twitter logo" />
-            <img class="social-media__link" src="images/google-plus-logo.svg" alt="Image of google plus logo" />
-            <img class="social-media__link" src="images/pinterest-logo.svg" alt="Image of pinterest logo" />
-            <img class="social-media__link" src="images/instagram-logo.svg" alt="Image of instagram logo" />
-            <img class="social-media__link" src="images/stumbleupon-logo.svg" alt="Image of stumbleupon logo" />
-            <img class="social-media__link" src="images/rss-logo.svg" alt="Image of rss logo" />
+            <a href="#"><img class="social-media__link" src="images/facebook-logo.svg" alt="Image of facebook logo" /></a>
+            <a href="#"><img class="social-media__link" src="images/twitter-logo.svg" alt="Image of twitter logo" /></a>
+            <a href="#"><img class="social-media__link" src="images/google-plus-logo.svg" alt="Image of google plus logo" /></a>
+            <a href="#"><img class="social-media__link" src="images/pinterest-logo.svg" alt="Image of pinterest logo" /></a>
+            <a href="#"><img class="social-media__link" src="images/instagram-logo.svg" alt="Image of instagram logo" /></a>
+            <a href="#"><img class="social-media__link" src="images/stumbleupon-logo.svg" alt="Image of stumbleupon logo" /></a>
+            <a href="#"><img class="social-media__link" src="images/rss-logo.svg" alt="Image of rss logo" /></a>
           </div>
         </div>
       </section>
+      <section class="wrapper wrapper_with-bg">
+        <div class="content-container">
+          <div class="tab-container">
+            <input id="tab1" class="tab-container__tab" type="radio" name="tabs" checked>
+            <label for="tab1" class="tab-container__label">Tab 1</label>
+        
+            <input id="tab2" class="tab-container__tab" type="radio" name="tabs">
+            <label for="tab2" class="tab-container__label">Tab 2</label>
+        
+            <input id="tab3" class="tab-container__tab" type="radio" name="tabs">
+            <label for="tab3" class="tab-container__label">Tab 3</label>
+            <div class="tab-container__panels">
+              <div class="tab-container__panel">
+                <div class="content-row">
+                  <article class="post">
+                    <h2 class="post__title post__title_small post__title_without-top-margin">
+                      Tabs with soft transitioning effect.
+                    </h2>
+                    <p class="post__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                      bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                      justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                      penatibus et magnis dis parturient montes.
+                    </p>
+                    <p class="post__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                      bibendum laoreet.
+                    </p>
+                    <a href="assets/modulepatterns.pdf" target="_blank" download="author" rel="external"
+                    title="Module patterns" class="button button_colored">
+                      Download
+                    </a>
+                  </article>
+                  <img src="images/night-city.png" alt="Image of night city" class="large-image large-image_right" />
+                </div>
+              </div>
+        
+              <div class="tab-container__panel">
+                <div class="content-row">
+                  <article class="post">
+                    <h2 class="post__title post__title_small post__title_without-top-margin">
+                      Tabs 2 with soft transitioning effect.
+                    </h2>
+                    <p class="post__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                      bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                      justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                      penatibus et magnis dis parturient montes.
+                    </p>
+                    <p class="post__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                      bibendum laoreet.
+                    </p>
+                    <a href="assets/modulepatterns.pdf" target="_blank" download="author" rel="external"
+                    title="Module patterns" class="button button_colored">
+                      Download
+                    </a>
+                  </article>
+                  <img src="images/night-city.png" alt="Image of night city" class="large-image large-image_right" />
+                </div>
+              </div>
+        
+              <div class="tab-container__panel">
+                <div class="content-row">
+                  <article class="post">
+                    <h2 class="post__title post__title_small post__title_without-top-margin">
+                      Tabs 3 with soft transitioning effect.
+                    </h2>
+                    <p class="post__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                      bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                      justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                      penatibus et magnis dis parturient montes.
+                    </p>
+                    <p class="post__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                      bibendum laoreet.
+                    </p>
+                    <a href="assets/modulepatterns.pdf" target="_blank" download="author" rel="external"
+                    title="Module patterns" class="button button_colored">
+                      Download
+                    </a>
+                  </article>
+                  <img src="images/night-city.png" alt="Image of night city" class="large-image large-image_right" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="wrapper">
+        <div class="content-container content-container_large-picture-left">
+          <img src="images/winter-town.png" alt="Image of town in winter" class="large-image large-image_left" />
+          <article class="post">
+            <h3 class="post__title post__title_small post__title_without-margin">
+              Sub list section
+            </h3>
+            <img class="post__separator" src="images/colored-separator.png" alt="" />
+            <p class="post__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+              euismod bibendum laoreet. Proin gravida dolor sit amet lacus 
+              accumsan et viverra justo commodo.
+            </p>
+            <div class="post post_row">
+              <div class="post__image-container post__image-container_small">
+                <img src="images/upload.svg" alt="Image of upload logo"/>
+              </div>
+              <div>
+                <h4 class="post__title post__title_extra-small">
+                  Title
+                </h4>
+                <p class="post__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  Aenean euismod bibendum laoreet.
+                </p>
+              </div>
+            </div>
+            <div class="post post_row">
+                <div class="post__image-container post__image-container_small">
+                  <img src="images/download.svg" alt="Image of download logo"/>
+                </div>
+                <div>
+                  <h4 class="post__title post__title_extra-small">
+                    Title
+                  </h4>
+                  <p class="post__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Aenean euismod bibendum laoreet. Proin gravida dolor 
+                    sit amet lacus accumsan et viverra justo commodo.
+                  </p>
+                </div>
+              </div>
+          </article>
+        </div>
+      </section>
+      <section class="wrapper wrapper_with-bg">
+          <div class="content-container content-container_large-picture-right">
+            <article class="post post_align-top">
+              <h3 class="post__title post__title_small post__title_without-margin">
+                Sub list section
+              </h3>
+              <img class="post__separator" src="images/colored-separator.png" alt="" />
+              <p class="post__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+                euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan 
+                et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis 
+                natoque penatibus et magnis dis parturient montes.
+              </p>
+              <p class="post__text">  
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                bibendum laoreet.
+              </p>
+            </article>
+            <img src="images/city.png" alt="Image of city" class="large-image large-image_right" />
+          </div>
+        </section>
       <section class="wrapper">
         <div class="content-container content-container_theme_features">
           <article class="post post_centered">
@@ -145,7 +303,7 @@
           </div>
         </div>
       </section>
-      <section class="wrapper wrapper_theme_pricing">
+      <section class="wrapper wrapper_with-bg">
         <div class="content-container content-container_theme_pricing">
           <article class="post post_centered">
             <h2 class="post__title">
@@ -352,12 +510,13 @@
               Stylish axure design
             </h2>
             <img class="post__separator" src="images/separator-white.png" alt="" />
-            <p class="post__text">
+            <p class="post__text post__text_centered">
               Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!
             </p>
-            <button class="button">
+            <a href="assets/modulepatterns.pdf" target="_blank" download="author" rel="external"
+            title="Module patterns" class="button">
               Download
-            </button>
+            </a>
           </article>
         </div>
       </section>
@@ -375,11 +534,12 @@
           <form action="#" method="POST" class="contact-us-form">
             <div class="content-row content-row_align-bottom">
               <div class="content-column">
-                <input type="text" placeholder="Name" required autocomplete="name" class="input input_name input_large" />
+                <input type="text" placeholder="Name" required autocomplete="name" class="input input_name input_large" 
+                inputmode="latin" pattern="^([A-Za-z]){1,}$" title="At least 1 character, only latin letters"/>
                 <input type="email" placeholder="Email" required autocomplete="email" class="input input_email input_large" />
-                <input type="text" placeholder="Subject" required class="input input_subject input_large" />
+                <input type="text" placeholder="Subject" class="input input_subject input_large" />
               </div>
-              <textarea placeholder="Message" required class="input input_textarea input_large"></textarea>
+              <textarea placeholder="Message" required class="input input_textarea input_large" minlength="1" maxlength="250"></textarea>
             </div>
             <button class="button button_colored" type="submit">
               Send Message
@@ -391,13 +551,13 @@
     <footer class="wrapper wrapper_footer">
       <div class="content-container content-container_footer">
         <div class="social-media social-media_small">
-          <img class="social-media__link social-media__link_small" src="images/facebook-logo.svg" alt="Image of facebook logo" />
-          <img class="social-media__link social-media__link_small" src="images/twitter-logo.svg" alt="Image of twitter logo" />
-          <img class="social-media__link social-media__link_small" src="images/google-plus-logo.svg" alt="Image of google plus logo" />
-          <img class="social-media__link social-media__link_small" src="images/pinterest-logo.svg" alt="Image of pinterest logo" />
-          <img class="social-media__link social-media__link_small" src="images/instagram-logo.svg" alt="Image of instagram logo" />
-          <img class="social-media__link social-media__link_small" src="images/stumbleupon-logo.svg" alt="Image of stumbleupon logo" />
-          <img class="social-media__link social-media__link_small" src="images/rss-logo.svg" alt="Image of rss logo" />
+          <a href="#"><img class="social-media__link social-media__link_small" src="images/facebook-logo.svg" alt="Image of facebook logo" /></a>
+          <a href="#"><img class="social-media__link social-media__link_small" src="images/twitter-logo.svg" alt="Image of twitter logo" /></a>
+          <a href="#"><img class="social-media__link social-media__link_small" src="images/google-plus-logo.svg" alt="Image of google plus logo" /></a>
+          <a href="#"><img class="social-media__link social-media__link_small" src="images/pinterest-logo.svg" alt="Image of pinterest logo" /></a>
+          <a href="#"><img class="social-media__link social-media__link_small" src="images/instagram-logo.svg" alt="Image of instagram logo" /></a>
+          <a href="#"><img class="social-media__link social-media__link_small" src="images/stumbleupon-logo.svg" alt="Image of stumbleupon logo" /></a>
+          <a href="#"><img class="social-media__link social-media__link_small" src="images/rss-logo.svg" alt="Image of rss logo" /></a>
         </div>
         <p class="copyright">
           © 2015 Axure Themes

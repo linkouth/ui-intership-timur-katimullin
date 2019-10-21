@@ -3,13 +3,13 @@
 .content-container_theme_comments {
   @include for-tablet-landscape-up {
     & {
-      padding: 110px 100px 140px;
+      padding: 110px 0px 140px;
     }
   }
 
   @include for-tablet-portrait-up {
     & {
-      padding: 110px 50px 140px;
+      padding: 110px 0px 140px;
     }
   }
 }

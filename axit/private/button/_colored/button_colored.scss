@@ -4,4 +4,8 @@
   border-color: $button-bg-color;
   border-radius: 2px;
   background-color: $button-bg-color;
+
+  &:hover {
+    opacity: .5;
+  }
 }

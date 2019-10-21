@@ -1,8 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }
 
 @import "wrapper/wrapper.scss";
+@import "wrapper/_with-bg/wrapper_with-bg.scss";
 @import "wrapper/_header/wrapper_header.scss";
 @import "wrapper/_theme_buildings/wrapper_theme_buildings.scss";
 @import "wrapper/_theme_social-media/wrapper_theme_social-media.scss";
@@ -22,16 +27,27 @@ body {
 @import "content-container/_theme_comments/content-containers_theme_comments.scss";
 @import "content-container/_theme_street/content-container_theme_street.scss";
 @import "content-container/_theme_contact-us/content-container_theme_contact-us.scss";
+@import "content-container/_large-picture-left/content-container_large-picture-left.scss";
+@import "content-container/_large-picture-right/content-container_large-picture-right.scss";
 @import "nav/__items/nav__items.scss";
 @import "nav/__item/nav__item.scss";
 @import "nav/__link/nav__link.scss";
 @import "copyright/copyright.scss";
+@import "site-title/site-title.scss";
+@import "large-image/large-image.scss";
+@import "large-image/_left/large-image_left.scss";
+@import "large-image/_right/large-image_right.scss";
 @import "post/post.scss";
+@import "post/_align-top/post_align-top.scss";
 @import "post/_centered/post_centered.scss";
+@import "post/_row/post_row.scss";
 @import "post/__title/post__title.scss";
 @import "post/__title/_trinary-color/post__title_trinary-color.scss";
 @import "post/__title/_small/post__title_small.scss";
+@import "post/__title/_extra-small/post__title_extra-small.scss";
 @import "post/__title/_centered/post__title_centered.scss";
+@import "post/__title/_without-margin/post__title_without-margin.scss";
+@import "post/__title/_without-top-margin/post__title_without-top-margin.scss";
 @import "post/__text/post__text.scss";
 @import "post/__text/_secondary-color/post__text_secondary-color.scss";
 @import "post/__text/_centered/post__text_centered.scss";
@@ -39,6 +55,7 @@ body {
 @import "post/__text/_without-margins/post__text_without-margins.scss";
 @import "post/__separator/post__separator.scss";
 @import "post/__image-container/post__image-container.scss";
+@import "post/__image-container/_small/post__image-container_small.scss";
 @import "button/button.scss";
 @import "button/_colored/button_colored.scss";
 @import "button/_large/button_large.scss";
@@ -78,3 +95,8 @@ body {
 @import "comment/__author/comment__author.scss";
 @import "comment/__subtitle/comment__subtitle.scss";
 @import "contact-us-form/contact-us-form.scss";
+@import "tab-container/tab-container.scss";
+@import "tab-container/__tab/tab-container__tab.scss";
+@import "tab-container/__label/tab-container__label.scss";
+@import "tab-container/__panels/tab-container__panels.scss";
+@import "tab-container/__panel/tab-container__panel.scss";
