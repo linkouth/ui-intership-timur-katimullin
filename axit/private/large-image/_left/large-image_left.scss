@@ -1,0 +1,17 @@
+@import "../../global/mixins";
+
+.large-image_left {
+  margin-right: 140px;
+
+  @include for-tablet-landscape-up {
+    & {
+      margin-right: 0;
+    }
+  }
+
+  @include for-tablet-portrait-up {
+    & {
+      margin-right: 0;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@import "../global/mixins";
+
+.content-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 110px 150px 140px 150px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+
+  @include for-tablet-landscape-up {
+    & {
+      padding: 50px 30px 70px;
+    }
+  }
+
+  @include for-tablet-portrait-up {
+    & {
+      padding: 50px 20px 70px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@import "../global/variables";
+
+.copyright {
+  margin: 15px 0 0;
+  opacity: 0.5;
+  color: $primary-color;
+  font-family: $primary-font;
+  font-size: 12px;
+  font-weight: 400;
+}

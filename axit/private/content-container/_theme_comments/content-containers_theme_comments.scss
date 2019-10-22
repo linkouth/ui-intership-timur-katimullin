@@ -1,0 +1,15 @@
+@import "../../global/mixins";
+
+.content-container_theme_comments {
+  @include for-tablet-landscape-up {
+    & {
+      padding: 110px 0px 140px;
+    }
+  }
+
+  @include for-tablet-portrait-up {
+    & {
+      padding: 110px 0px 140px;
+    }
+  }
+}

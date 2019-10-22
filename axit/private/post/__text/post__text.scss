@@ -1,0 +1,24 @@
+@import "../../global/variables";
+@import "../../global/mixins";
+
+.post__text {
+  max-width: 500px;
+  margin: 0;
+  margin-bottom: 45px;
+  color: $text-primary-color;
+  font-family: $primary-font;
+  font-size: 14px;
+  font-weight: 400;
+
+  @include for-tablet-landscape-up {
+    & {
+      max-width: 400px;
+    }
+  }
+
+  @include for-tablet-portrait-up {
+    & {
+      max-width: 400px;
+    }
+  }
+}

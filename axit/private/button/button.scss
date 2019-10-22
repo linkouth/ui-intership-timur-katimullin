@@ -1,0 +1,17 @@
+@import "../global/variables";
+
+.button {
+  padding: 15px 32px;
+  border: 1px solid $border-primary-color;
+  background: none;
+  color: $primary-color;
+  font-family: $primary-font-bold;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $button-bg-color;
+  }
+}

@@ -1,0 +1,9 @@
+@import "../../global/variables";
+
+.card__footnote-section {
+  height: 50px;
+  background-color: $card-section-bg-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

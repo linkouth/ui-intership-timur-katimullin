@@ -1,0 +1,10 @@
+@import "../../global/variables";
+
+.post__title {
+  margin: 0;
+  color: $title-primary-color;
+  font-family: $secondary-font;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+}

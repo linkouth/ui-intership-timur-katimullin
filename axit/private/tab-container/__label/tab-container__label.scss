@@ -1,0 +1,30 @@
+@import "../../global/variables";
+
+.tab-container__label {
+  height: 112px;
+  width: 112px;
+  padding: 50px 35px;
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 1px;
+  background-color: $card-section-bg-color;
+  color: $text-secondary-color;
+  font-family: $primary-font;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+
+  &:checked {
+    background-color: $button-bg-color;
+  }
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $border-primary-color;
+  }
+
+  &:hover {
+    opacity: .5;
+    cursor: pointer;
+  }
+}

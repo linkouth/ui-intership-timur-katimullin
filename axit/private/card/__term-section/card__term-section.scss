@@ -1,0 +1,16 @@
+@import "../../global/variables";
+
+.card__term-section {
+  width: 100%;
+  height: 40px;
+  background-color: $bg-primary-color;
+  border-bottom: 1px solid $border-secondary-color;
+  color: $text-primary-color;
+  font-family: $primary-font;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

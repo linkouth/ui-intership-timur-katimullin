@@ -1,0 +1,35 @@
+@import "../global/mixins";
+
+.card {
+  width: 343px;
+
+  // @media screen and (max-width: 1440px) {
+  //   // & {
+  //   //   width: 250px;
+  //   // }
+
+  //   &:nth-child(even) {
+  //     margin: 0 30px;
+  //   }
+  // }
+
+  @include for-tablet-landscape-up {
+    & {
+      width: 250px;
+    }
+
+    &:nth-child(even) {
+      margin: 0 30px;
+    }
+  }
+
+  @include for-tablet-portrait-up {
+    & {
+      width: 200px;
+    }
+
+    &:nth-child(even) {
+      margin: 0 15px;
+    }
+  }
+}

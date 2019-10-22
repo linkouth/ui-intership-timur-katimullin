@@ -1,0 +1,13 @@
+@import "../../global/variables";
+
+.card__price-section {
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  background-color: $card-section-bg-color;
+  background-color: $card-section-bg-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}

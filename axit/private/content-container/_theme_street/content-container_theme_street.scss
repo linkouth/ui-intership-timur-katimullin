@@ -1,0 +1,17 @@
+@import "../../global/mixins";
+
+.content-container_theme_street {
+  padding: 70px 300px;
+
+  @include for-tablet-landscape-up {
+    & {
+      padding: 50px 50px 90px;
+    }
+  }
+
+  @include for-tablet-portrait-up {
+    & {
+      padding: 50px 50px 90px;
+    }
+  }
+}

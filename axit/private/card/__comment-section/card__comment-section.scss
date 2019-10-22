@@ -1,0 +1,14 @@
+@import "../../global/variables";
+
+.card__comment-section {
+  height: 40px;
+  background-color: $card-section-bg-secondary-color;
+  color: $text-secondary-color;
+  font-family: $primary-font;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

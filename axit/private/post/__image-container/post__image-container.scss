@@ -1,0 +1,12 @@
+@import "../../global/variables";
+
+.post__image-container {
+  width: 70px;
+  height: 70px;
+  box-sizing: border-box;
+  border: 2px solid $button-bg-color;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
